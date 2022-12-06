@@ -1,4 +1,4 @@
-.header {
+    .header {
     nav {
         padding: 24px;
     }
@@ -24,6 +24,12 @@
     &__link{
         a{
             font-size: $font-sm;
+            color:$grayishBlue
+
         }
+    }
+    &__cta{
+        font-size: $font-sm;
+
     }
 }
