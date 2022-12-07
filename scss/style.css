@@ -46,6 +46,18 @@ button, .button {
   color: hsl(0deg, 0%, 100%);
 }
 
+@media (max-width: 1023) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hide-for-desktop {
+    display: none;
+  }
+}
+
 .header nav {
   padding: 24px;
 }
@@ -64,4 +76,4 @@ button, .button {
 }
 .header__cta {
   font-size: 0.875rem;
-}
+}/*# sourceMappingURL=style.css.map */
