@@ -1,4 +1,4 @@
-@import "mixins"
+
 html {
     font-size: 100%;
     box-sizing: border-box;
@@ -52,14 +52,15 @@ button,.button{
     color: $white;
 
 }
-
+// Visibility
 .hide-for-mobile{
     @include breakpoint-down(medium){
         display: none;
     }
 }
 
-.hide-for-desctop{
-    @include breakpoint-up
+.hide-for-desktop{
+    @include breakpoint-up(large){
+        display: none;
+    }
 }
-//34:38 min sec
