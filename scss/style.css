@@ -46,7 +46,7 @@ button, .button {
   color: hsl(0deg, 0%, 100%);
 }
 
-@media (max-width: 1023) {
+@media (max-width: 1023px) {
   .hide-for-mobile {
     display: none;
   }
@@ -60,6 +60,10 @@ button, .button {
 
 .header nav {
   padding: 24px;
+}
+.header__logo img {
+  width: 141px;
+  height: 22px;
 }
 .header__menu > span {
   display: block;

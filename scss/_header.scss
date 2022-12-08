@@ -4,6 +4,13 @@
         padding: 24px;
     }
 
+    &__logo{
+        img{
+            width: 141px;
+            height: 22px;
+        }
+    }
+
     &__menu {
         // Mobile Menu
         > span {
