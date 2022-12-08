@@ -12,6 +12,7 @@
             height: 2px;
             background-color: $darkBlue;
 
+
             &:not(:last-child) {
                 margin-bottom: 3px;
             }
@@ -20,8 +21,10 @@
     &__link{
         a{
             font-size: $font-sm;
-            color:$grayishBlue
-
+            color:$grayishBlue;
+            &:not(:last-child){
+                margin-right:32px;
+            }
         }
     }
     &__cta{

@@ -74,6 +74,9 @@ button, .button {
   font-size: 0.875rem;
   color: hsl(233deg, 8%, 62%);
 }
+.header__link a:not(:last-child) {
+  margin-right: 32px;
+}
 .header__cta {
   font-size: 0.875rem;
 }/*# sourceMappingURL=style.css.map */
