@@ -1,12 +1,12 @@
-html {
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
 body {
